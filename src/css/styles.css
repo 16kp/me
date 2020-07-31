@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+    font-family: 'Jetbrains mono';
+}
+
+.App-header {
+    background-color: #2f000f;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.App-body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #659421);
+	background-size: 400% 400%;
+    animation: gradient 25s ease infinite;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}   
