@@ -3,7 +3,7 @@
 - [ ] Social handles (LinkedIn, Github)
 - [ ] Content for main page
 
-### Setup
+### Setup ⚙
 * Install create-react-app
     ```
     npm install create-react-app
