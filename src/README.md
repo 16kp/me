@@ -1,3 +1,8 @@
+### TODOs
+- [ ] Change background theme to dark
+- [ ] Social handles (LinkedIn, Github)
+- [ ] Content for main page
+
 ### Setup
 * Install create-react-app
     ```
