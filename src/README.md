@@ -1,9 +1,9 @@
-### TODOs ✔
+# TODOs ✔
 ✔ Change background theme to dark
 - [ ] Social handles (LinkedIn, Github)
 - [ ] Content for main page
 
-### Setup ⚙
+# Setup ⚙
 * Install create-react-app
     ```
     npm install create-react-app
@@ -16,7 +16,7 @@
     ```
 
 
-### Deploy on gh-pages
+# Deploy on gh-pages
 * build
     ```
     npm run predeploy
