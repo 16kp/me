@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    overflow-x: hidden;
 }
 
 .App-header {
@@ -10,7 +11,7 @@
 }
 
 .App-body {
-	background: linear-gradient(-45deg, #493240, #203A43, #2C5364, #1b0a3f);
+    background: linear-gradient(-45deg, #333333, #33232d, #203A43, #182e38);
 	background-size: 400% 400%;
     animation: gradient 25s ease infinite;
     height: 100%;
@@ -21,13 +22,16 @@
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
-	}
-	50% {
+    }
+    33% {
+        background-position: 50% 100%;
+    }
+	66% {
 		background-position: 100% 50%;
 	}
-	100% {
-		background-position: 0% 50%;
-	}
+    100% {
+        background-position: 50% 0%;
+    }
 }   
 
 .text {
