@@ -1,5 +1,5 @@
 ### TODOs ✔
-- [✔] Change background theme to dark
+✔ Change background theme to dark
 - [ ] Social handles (LinkedIn, Github)
 - [ ] Content for main page
 
