@@ -19,8 +19,8 @@ function Body() {
                 <Grid item xs={1}></Grid>
 
                 <Grid item xs={5}>
-                    <Grid container spacing={3} direction="column">
-                        <Grid item xs={6}>
+                    <Grid container spacing={4} direction="column">
+                        <Grid item xs={8}>
                             <span className="hello white">んey there!</span>
                         </Grid>
 
@@ -29,7 +29,17 @@ function Body() {
                         
                         <Grid item xs={12}>
                             <span className="text white">
-                                Hello, I'm Krishna, I live in Hyderabad, India, and work at Amazon. In my free time I like to program.
+                                Hello, I'm Krishna, I live in Hyderabad, India, and I work at Amazon.
+                                <br/>
+                                
+                                In my free time I do lots of things, including reading books, playing games to mindlessly wandering off on Google Earth, since
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/> 
+                                <a href="https://clip.cafe/harry-potter-the-half-blood-prince-2009/these-are-mad-times-live-in-s1/" target="_blank" class="link">"these are mad times we live in, MAD!"</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~sluggy
                                 
                             </span>
                         </Grid>
