@@ -1,6 +1,7 @@
 .App {
     text-align: center;
-    overflow-x: hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .App-header {
@@ -37,11 +38,12 @@
 .text {
     padding: 4px;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .hello {
-    font-size: 45px;
-    font-weight: 100;
+    font-size: 52px;
+    font-weight: 400;
 }
 
 .white {
@@ -50,4 +52,13 @@
 
 .white-border {
     border-color: #fff !important;
+}
+
+.social-button {
+    padding : 10px !important;
+}
+
+.empty {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
