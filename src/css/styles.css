@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
 .App {
     height: 100vh;
     overflow: hidden;
@@ -36,16 +40,18 @@
 
 .text {
     padding: 4px;
-    font-weight: 200;
-    font-size: 18px;
+    font-weight: 100;
+    font-size: 30px;
     justify-content: left !important;
     text-align: left !important;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 
 .hello {
-    font-size: 82px;
-    font-weight: 200;
+    font-size: 90px;
+    font-weight: 100;
+    font-family: 'Reenie Beanie';
 }
 
 .white {

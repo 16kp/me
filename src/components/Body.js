@@ -21,7 +21,7 @@ function Body() {
                 <Grid item xs={5}>
                     <Grid container spacing={4} direction="column">
                         <Grid item xs={8}>
-                            <span className="hello white">んey there!</span>
+                            <span className="hello white">hey there!</span>
                         </Grid>
 
                         {/* space between header and description */}
@@ -29,7 +29,7 @@ function Body() {
                         
                         <Grid item xs={12}>
                             <span className="text white">
-                                Hello, I'm Krishna, I live in Hyderabad, India, and I work at Amazon.
+                                Hello, I'm Krishna, I live in Hyderabad, India, and I work at Amazon (no longer).
                                 <br/>
                                 
                                 In my free time I do lots of things, including reading books, playing games to mindlessly wandering off on Google Earth, since
@@ -42,6 +42,17 @@ function Body() {
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~sluggy
                                 
                             </span>
+                        </Grid>
+                        <Grid item xs={12} className="text white">
+                            so apparently adding google fonts in react is pretty easy, but i need to re-organise this stuff.
+                            <ul>
+                                <li>
+                                    [❌] also need to make this responsive and mobile friendly
+                                </li>
+                                <li>
+                                    [❌] make it more blog friendly, prolly figure out a way to convert md to react/HTML and add css classes wherever applicable, but maybe not
+                                </li>
+                            </ul>
                         </Grid>
                     </Grid>                
                 </Grid>
