@@ -52,6 +52,9 @@ function Body() {
                                 <li>
                                     [❌] make it more blog friendly, prolly figure out a way to convert md to react/HTML and add css classes wherever applicable, but maybe not
                                 </li>
+                                <li>
+                                    [❌] look into https://github.com/remarkjs/react-markdown for markdown blogging
+                                </li>
                             </ul>
                         </Grid>
                     </Grid>                
